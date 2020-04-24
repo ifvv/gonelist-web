@@ -10,7 +10,7 @@
         <div class="header-container">
             <div class="title-icon">
               <h3>
-                <span><i class="fa fa-home" aria-hidden="true"></i> </span>
+                <span><i class="fa fa-home" aria-hidden="true"></i></span>&nbsp;
                 <span v-for="(item,index) in path" :key="item" @click="toPath(index)">
                   <span>{{item=='/' ? 'root':item}}</span>
                   <span style="padding-left:5px" v-if="item || item!= '/'">/ </span>
