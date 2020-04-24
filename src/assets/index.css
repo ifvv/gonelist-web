@@ -21,7 +21,10 @@
       padding: 10px 30px;
     }
   }
-
+    @font-face {
+      font-weight:400;font-style:normal;font-family:'A-OTF Outai Kaisho Std';src:local('A-OTF Outai Kaisho Std'),local('A-OTFOutaiKaishoStd'),url("data:font/woff;base64,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") format('woff')
+    }
+  
     body {
         background-color: rgb(247, 247, 249);
     }
@@ -29,7 +32,8 @@
       margin: 0 auto;
     }
     .title h1 {
-      text-align: left;
+      text-align: center;
+      font-family:"A-OTF Outai Kaisho Std";
       color: rgb(51, 51, 51);
       letter-spacing: 2px;
       line-height: 64px;

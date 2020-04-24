@@ -1,7 +1,7 @@
 <template>
   <div class="content">
     <div class="title">
-       <h1>GONEList</h1>
+       <h1>Cloud Drive</h1>
     </div>
 
     <div class="list-wrapper">
