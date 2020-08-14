@@ -87,6 +87,7 @@
         margin-bottom: 40px;
         position: relative;
         box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+        z-index: 9;
     }
     .header-container {
         margin: 0;
@@ -161,6 +162,13 @@
     line-height: 1.5;
     word-wrap: break-word;
   }
+  .markdown-body a {
+    color: #0366d6;
+    text-decoration: none;
+  }
+  .markdown-body a:hover {
+    text-decoration: underline;
+  }
   .markdown-body h1 {
     padding-bottom: .3em;
     border-bottom: 1px solid #eaecef;
@@ -229,6 +237,9 @@
 }
 .markdown-body code {
   border-radius: 3px;
+}
+.markdown-body img {
+  max-width: 100%;
 }
   .card-header {
     padding: 8px 0;
